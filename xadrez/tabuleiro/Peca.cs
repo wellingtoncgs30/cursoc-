@@ -16,6 +16,10 @@
             quantidadeDeMovimentos++;
         }
 
+        public void decrementarQteMovimentos() {
+            quantidadeDeMovimentos--;
+        }
+
         public bool existeMovimentosPossiveis() {
             bool[,] matriz = movimentosPossiveis();
             for (int i = 0; i < tabuleiro.linhas; i++)
